@@ -3,16 +3,24 @@
 /* ELEMENT FORMATTING */
 body{
 	margin:auto;
-	width:900px;
+	width:700px;
 	font-family: Helvetica;
 }
 div {
 	text-align: center;
 }
+img {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
 
 /* LAYOUT */
 .bottom {
 	height:100px;
+}
+.buttons {
+	float: left;
+	width: 50%;
 }
 
 /* DETAILED FORMATTING */
@@ -50,7 +58,7 @@ div {
 	font-style:normal;
 	height:50px;
 	line-height:50px;
-	width:200px;
+	width:98%;
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0px #ffffff;
