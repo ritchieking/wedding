@@ -1,10 +1,11 @@
 /* IMPORT FONTS */
 
 /* ELEMENT FORMATTING */
+html {
+	background: black;
+}
 body{
 	font-family: 'Alegreya Sans SC', sans-serif;
-	background: black;
-	background-size: cover;
 	margin:0;
 	color:#D2FFFF;
 }
