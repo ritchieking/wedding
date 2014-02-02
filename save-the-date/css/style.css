@@ -19,8 +19,9 @@ img {
 	height:100px;
 }
 .buttons {
-	float: left;
 	width: 50%;
+	margin:auto;
+	margin-bottom:10px;
 }
 
 /* DETAILED FORMATTING */
@@ -49,12 +50,12 @@ img {
 	-moz-border-radius-bottomleft:6px;
 	border-bottom-left-radius:6px;
 	text-indent:0;
-	border:1px solid #777777;
+	border:1px dashed #777777;
 	display:inline-block;
-	color:#777777;
-	font-family:Arial;
+	color:black;
+	font-family:Helvetica;
 	font-size:15px;
-	font-weight:bold;
+	font-weight:lighter;
 	font-style:normal;
 	height:50px;
 	line-height:50px;
