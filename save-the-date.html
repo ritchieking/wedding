@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
@@ -5,12 +7,13 @@
 <title>Save the date</title>
 <link href='http://fonts.googleapis.com/css?family=Stalemate' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/normalize.css">
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/boilerplate.css">
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/save-the-date.css">
 </head>
 <body bgcolor="black">
 <script src="js/script.js"></script>
-<link rel="stylesheet" type="text/css" href="../css-boilerplate/normalize.css">
-<link rel="stylesheet" type="text/css" href="../css-boilerplate/boilerplate.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+
 
 <div id="container">
 	<div class="column" id="col1">
@@ -23,11 +26,11 @@
 			<a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Emily%20and%20Ritchie's%20Wedding&dates=20140614/20140614&details=&location=Ann%20Arbor%2C%20MI&trp=false&sprop=Emily%20and%20Ritchie's%20Wedding%20Site&sprop=name:http%3A%2F%2Fbarbara-sutherland.us" target="_blank" class="calButton">Add to Google Calendar</a>	
 		</div>
 		<div class="buttons">
-			<a href="img/still.jpg" download="Save the Date — Emily and Ritchie" title="Save the Date — Emily and Ritchie" class="calButton">Download as a Card</a>	
+			<a href="{{ site.baseurl }}/assets/images/still.jpg" download="Save the Date — Emily and Ritchie" title="Save the Date — Emily and Ritchie" class="calButton">Download as a Card</a>	
 		</div>
 	</div>
 	<div class="column" id="col2">
-		<img src="img/400px.gif"/>
+		<img src="{{ site.baseurl }}/assets/images/400px.gif"/>
 	</div>
 	<div class="clearfix"></div>
 </div>
