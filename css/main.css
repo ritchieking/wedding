@@ -69,7 +69,10 @@ label {
   margin-top:50px;
 }
 .border-line {
-  border-bottom: 1px dotted black;
+  margin-bottom:30px;
+}
+.border-line-top {
+  border-bottom: 1px solid black;
   margin-bottom:20px;
 }
 .invitation {
