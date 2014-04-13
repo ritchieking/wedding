@@ -5,6 +5,7 @@ body {
   margin-top:30px;
   margin-right:auto;
   max-width:600px;
+  margin-bottom:400px;
 }
 
 h1 {
@@ -70,7 +71,7 @@ label {
 .invitation {
   text-align:center;
 }
-.invitation p {
+.invitation-text{
   width:350px;
   margin-top:30px;
   margin-bottom:30px;
@@ -78,14 +79,35 @@ label {
   margin-left:auto;
   font-family: 'Merriweather', serif;
   font-style: italic;
-  font-size:13px;
+  font-size:18px;
+}
+.to-text {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size:18px;
 }
 .invitation h1 {
-  font-size: 75px;
+  font-size: 100px;
 }
 .detail-text {
   text-transform: uppercase;
-  font-size: 13px;
-  font-style: normal;
-  width:100px;
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
+  width:350px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+.break-img {
+  margin: 20px 0 20px 0;
+}
+.invitation a {
+  font-family: 'Merriweather', serif;
+}
+.invitation a:hover {
+  font-weight:900;
+}
+.bottom-link {
+  margin-top:25px;
 }
