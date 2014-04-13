@@ -67,3 +67,25 @@ label {
   border-bottom: 1px dotted black;
   margin-bottom:20px;
 }
+.invitation {
+  text-align:center;
+}
+.invitation p {
+  width:350px;
+  margin-top:30px;
+  margin-bottom:30px;
+  margin-right:auto;
+  margin-left:auto;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size:13px;
+}
+.invitation h1 {
+  font-size: 75px;
+}
+.detail-text {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-style: normal;
+  width:100px;
+}
