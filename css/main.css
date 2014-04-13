@@ -1,6 +1,6 @@
 body {
-  font-family: Helvetica;
-  font-weight:lighter;
+  font-family: 'Merriweather', serif;
+  font-size:18px;
   margin-left:auto;
   margin-top:30px;
   margin-right:auto;
@@ -11,23 +11,23 @@ body {
 h1 {
   font-family: 'Stalemate', cursive;
   font-weight: 500;
-  font-size: 100px;
+  font-size: 150px;
   margin-top: 8px;
   margin-bottom:0;
 }
 h2 {
   font-family: 'Stalemate', cursive;
   font-weight: 500;
-  font-size:50px;
+  font-size:75px;
   margin-top:20px;
   margin-bottom:10px;
 }
 p {
-  margin-bottom:0;
-  margin-top:0; 
+  margin-bottom:30px;
+  margin-top:0;
+  font-size:18px;
 }
 a {
-  font-size:18px;
   margin-top:5px;
   margin-bottom:0;
   color:black;
@@ -55,6 +55,10 @@ label {
 
 .upper {
   text-transform: uppercase;
+  font-family: Helvetica;
+  font-weight:lighter;
+  margin-bottom:0;
+  margin-top:0;
 }
 .unstyled-link {
   text-decoration: none;
@@ -110,4 +114,76 @@ label {
 }
 .bottom-link {
   margin-top:25px;
+}
+.inline-link {
+  font-weight: bold;
+  color:teal;
+}
+.inline-link a:hover; {
+  font-weight: normal;
+}
+.homepage-links {
+  margin-bottom:0;
+}
+.ss-q-title {
+  margin-top:30px;
+  font-weight:bold;
+}
+.sandwich-label {
+  margin-bottom:0px;
+  text-transform: uppercase;
+  font-size:14px;
+  font-weight:bold;
+}
+.sandwich-description {
+  margin-bottom:5px;
+  font-size:16px;
+  font-style: italic;
+}
+.sandwich-img {
+  margin-bottom:50px;
+}
+#ss-submit {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dbdbdb), color-stop(1, #ffffff) );
+  background:-moz-linear-gradient( center top, #dbdbdb 5%, #ffffff 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbdbdb', endColorstr='#ffffff');
+  background-color:#dbdbdb;
+  -webkit-border-top-left-radius:6px;
+  -moz-border-radius-topleft:6px;
+  border-top-left-radius:6px;
+  -webkit-border-top-right-radius:6px;
+  -moz-border-radius-topright:6px;
+  border-top-right-radius:6px;
+  -webkit-border-bottom-right-radius:6px;
+  -moz-border-radius-bottomright:6px;
+  border-bottom-right-radius:6px;
+  -webkit-border-bottom-left-radius:6px;
+  -moz-border-radius-bottomleft:6px;
+  border-bottom-left-radius:6px;
+  text-indent:0;
+  font-family: 'Merriweather', serif;
+  border:1px solid #050505;
+  display:inline-block;
+  font-size:18px;
+  font-style:normal;
+  height:50px;
+  line-height:50px;
+  width:250px;
+  text-decoration:none;
+  text-align:center;
+  margin-top:30px;
+}
+#ss-submit:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #dbdbdb) );
+  background:-moz-linear-gradient( center top, #ffffff 5%, #dbdbdb 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dbdbdb');
+  background-color:#ffffff;
+}
+.first-sandwich-graf {
+  margin-top:30px;
+}
+.ss-q-long {
+  height:100px;
+  width:100%;
+  margin-top:10px;
 }
