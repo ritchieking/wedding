@@ -195,3 +195,23 @@ select {
   margin-bottom:20px;
   width:50px;
 }
+.hotel {
+  margin-bottom:0;
+}
+.hotel-links {
+  margin-bottom:50px;
+  margin-top: 10px;
+}
+.hotel-label {
+  font-weight:bold;
+}
+.hotel-address {
+  color:#999999;
+}
+.hotel-cost {
+  font-style:italic;
+}
+.hotel-rooms {
+  margin-bottom:10px;
+  color:#999999;
+}
